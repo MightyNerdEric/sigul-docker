@@ -5,4 +5,4 @@ COPY ./fedora-infra-sigul.repo /etc/yum.repos.d/fedora-infra-sigul.repo
 
 RUN yum install -y -q sigul
 
-RUN mkdir -p /w/workspace
+#RUN mkdir -p /w/workspace
